@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Premier League Historical Data Pipeline (2010/11 - 2024/25)
+Premier League Historical Data Pipeline (2010/11 - 2025/26)
 ===========================================================
 Extracts, transforms, and exports 4 comprehensive datasets:
-1. epl_team_season_stats.csv - Team standings, performance, shots, transfers spend & managers
-2. epl_player_season_stats.csv - Player seasonal performance, goals, assists, minutes, cards, valuation
-3. epl_transfers.csv - All incoming/outgoing transfers for PL clubs with fees and market values
+1. epl_team_season_stats.csv - Standings, match stats, advanced metrics (xG, xGA, PPDA, xPTS, Deep completions), transfers & coaches
+2. epl_player_season_stats.csv - Player appearances, goals, assists, xG, xA, npxG, key passes, shots, xGChain, xGBuildup, valuation
+3. epl_transfers.csv - All incoming/outgoing transfers for PL clubs with fees, market values, and transfer windows
 4. epl_coaches_history.csv - Manager appointments, departures, match records, PPG, win rates
 """
 
@@ -17,6 +17,12 @@ import datetime
 import requests
 import pandas as pd
 import numpy as np
+
+try:
+    from understatapi import UnderstatClient
+    HAS_UNDERSTAT = True
+except ImportError:
+    HAS_UNDERSTAT = False
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
@@ -168,8 +174,8 @@ def parse_season_year(s, date_str):
     return 2020
 
 def fetch_football_data_matches():
-    log("Fetching match statistics from Football-Data.co.uk (2010-2025)...")
-    season_years = range(2010, 2025)
+    log("Fetching match statistics from Football-Data.co.uk (2010-2026)...")
+    season_years = range(2010, 2026)  # 2010/11 through 2025/26
     dfs = []
     
     for year in season_years:
@@ -178,7 +184,9 @@ def fetch_football_data_matches():
         local_filename = f"fd_{code}_E0.csv"
         local_path = os.path.join(RAW_DIR, local_filename)
         
-        if os.path.exists(local_path) and os.path.getsize(local_path) > 1000:
+        # Don't cache ongoing season permanently so latest games refresh
+        use_cache = os.path.exists(local_path) and os.path.getsize(local_path) > 1000 and year < 2025
+        if use_cache:
             df = pd.read_csv(local_path, on_bad_lines='skip')
         else:
             url = f"https://www.football-data.co.uk/mmz4281/{code}/E0.csv"
@@ -194,7 +202,7 @@ def fetch_football_data_matches():
                 log(f"  Error fetching season {season_label}: {e}")
                 df = pd.DataFrame()
                 
-        if 'HomeTeam' in df.columns and 'AwayTeam' in df.columns:
+        if 'HomeTeam' in df.columns and 'AwayTeam' in df.columns and len(df) > 0:
             df['season'] = season_label
             df['season_year'] = year
             dfs.append(df)
@@ -208,6 +216,93 @@ def fetch_football_data_matches():
     all_matches['HomeTeam'] = all_matches['HomeTeam'].apply(standard_club_name)
     all_matches['AwayTeam'] = all_matches['AwayTeam'].apply(standard_club_name)
     return all_matches
+
+def fetch_understat_data():
+    if not HAS_UNDERSTAT:
+        log("understatapi not installed, skipping Understat advanced metrics.")
+        return pd.DataFrame(), pd.DataFrame()
+
+    log("Fetching advanced metrics (xG, xGA, PPDA, xPTS, Deep completions) from Understat (2014-2025)...")
+    u = UnderstatClient()
+    understat_years = range(2014, 2026)
+    
+    team_records = []
+    player_records = []
+    
+    for s_year in understat_years:
+        season_str = str(s_year)
+        season_label = f"{s_year}-{s_year+1}"
+        
+        # 1. Team Data
+        try:
+            team_data = u.league(league='EPL').get_team_data(season=season_str)
+            for t_id, t_info in team_data.items():
+                title = standard_club_name(t_info['title'])
+                hist = pd.DataFrame(t_info['history'])
+                
+                # PPDA calculations
+                ppda_att = sum([x['att'] for x in hist['ppda']])
+                ppda_def = sum([x['def'] for x in hist['ppda']])
+                ppda = round(ppda_att / ppda_def, 2) if ppda_def > 0 else None
+                
+                ppda_al_att = sum([x['att'] for x in hist['ppda_allowed']])
+                ppda_al_def = sum([x['def'] for x in hist['ppda_allowed']])
+                ppda_allowed = round(ppda_al_att / ppda_al_def, 2) if ppda_al_def > 0 else None
+                
+                xg = round(hist['xG'].astype(float).sum(), 2)
+                xga = round(hist['xGA'].astype(float).sum(), 2)
+                npxg = round(hist['npxG'].astype(float).sum(), 2)
+                npxga = round(hist['npxGA'].astype(float).sum(), 2)
+                deep = int(hist['deep'].astype(int).sum())
+                deep_al = int(hist['deep_allowed'].astype(int).sum())
+                xpts = round(hist['xpts'].astype(float).sum(), 2)
+                
+                team_records.append({
+                    'team_name': title,
+                    'season_year': s_year,
+                    'xG': xg,
+                    'xGA': xga,
+                    'xGD': round(xg - xga, 2),
+                    'npxG': npxg,
+                    'npxGA': npxga,
+                    'npxGD': round(npxg - npxga, 2),
+                    'ppda': ppda,
+                    'ppda_allowed': ppda_allowed,
+                    'deep_completions': deep,
+                    'deep_allowed': deep_al,
+                    'xPTS': xpts
+                })
+        except Exception as e:
+            log(f"  Understat team data error for {season_label}: {e}")
+
+        # 2. Player Data
+        try:
+            player_data = u.league(league='EPL').get_player_data(season=season_str)
+            for p in player_data:
+                player_records.append({
+                    'player_name': p.get('player_name'),
+                    'team_name': standard_club_name(p.get('team_title')),
+                    'season_year': s_year,
+                    'understat_games': int(p.get('games', 0)),
+                    'understat_minutes': int(p.get('time', 0)),
+                    'understat_goals': int(p.get('goals', 0)),
+                    'understat_npg': int(p.get('npg', 0)),
+                    'understat_assists': int(p.get('assists', 0)),
+                    'xG': round(float(p.get('xG', 0)), 2),
+                    'npxG': round(float(p.get('npxG', 0)), 2),
+                    'xA': round(float(p.get('xA', 0)), 2),
+                    'shots': int(p.get('shots', 0)),
+                    'key_passes': int(p.get('key_passes', 0)),
+                    'xGChain': round(float(p.get('xGChain', 0)), 2),
+                    'xGBuildup': round(float(p.get('xGBuildup', 0)), 2)
+                })
+            log(f"  Loaded Understat stats for season {season_label} ({len(player_data)} players)")
+        except Exception as e:
+            log(f"  Understat player data error for {season_label}: {e}")
+
+    df_team_understat = pd.DataFrame(team_records)
+    df_player_understat = pd.DataFrame(player_records)
+    return df_team_understat, df_player_understat
 
 def build_coaches_history(games_df):
     log("Building coaches history dataset...")
@@ -370,12 +465,11 @@ def build_transfers(transfers_raw, epl_clubs_set):
     out_df = out_df.sort_values(['transfer_date', 'pl_club_involved'], ascending=[False, True])
     return out_df
 
-def build_player_season_stats(players_df, appearances_df, games_df):
+def build_player_season_stats(players_df, appearances_df, games_df, player_understat_df):
     log("Building player seasonal statistics dataset...")
     epl_game_ids = set(games_df[games_df['competition_id'] == 'GB1']['game_id'])
     
     app_epl = appearances_df[appearances_df['game_id'].isin(epl_game_ids)].copy()
-    
     games_lookup = games_df[['game_id', 'season']].drop_duplicates()
     app_epl = app_epl.merge(games_lookup, on='game_id', how='left')
 
@@ -415,19 +509,34 @@ def build_player_season_stats(players_df, appearances_df, games_df):
     merged['market_value_eur'] = merged['market_value_in_eur']
     merged['highest_market_value_eur'] = merged['highest_market_value_in_eur']
 
+    # Merge Understat advanced metrics if available
+    if not player_understat_df.empty:
+        log("Merging Understat xG, xA, shots, and key passes into player stats...")
+        # Merge on player_name and season_year
+        merged = merged.merge(
+            player_understat_df[['player_name', 'season_year', 'xG', 'npxG', 'xA', 'shots', 'key_passes', 'xGChain', 'xGBuildup']],
+            on=['player_name', 'season_year'],
+            how='left'
+        )
+
     cols = [
         'player_id', 'player_name', 'season', 'season_year', 'club_name',
         'position', 'sub_position', 'country_of_citizenship', 'date_of_birth', 'age_in_season',
         'appearances', 'minutes_played', 'goals', 'assists',
-        'goals_per_90', 'assists_per_90', 'goal_contributions_per_90',
-        'yellow_cards', 'red_cards',
-        'market_value_eur', 'highest_market_value_eur'
+        'goals_per_90', 'assists_per_90', 'goal_contributions_per_90'
     ]
+    
+    if 'xG' in merged.columns:
+        cols += ['xG', 'npxG', 'xA', 'shots', 'key_passes', 'xGChain', 'xGBuildup']
+        
+    cols += ['yellow_cards', 'red_cards', 'market_value_eur', 'highest_market_value_eur']
 
-    res = merged[cols].sort_values(['season_year', 'goals', 'minutes_played'], ascending=[False, False, False])
+    # Keep only available columns
+    final_cols = [c for c in cols if c in merged.columns]
+    res = merged[final_cols].sort_values(['season_year', 'goals', 'minutes_played'], ascending=[False, False, False])
     return res
 
-def build_team_season_stats(fd_matches, coaches_df, transfers_df):
+def build_team_season_stats(fd_matches, coaches_df, transfers_df, team_understat_df):
     log("Building team season statistics dataset...")
     all_teams_by_season = []
     seasons = sorted(fd_matches['season_year'].unique())
@@ -545,21 +654,34 @@ def build_team_season_stats(fd_matches, coaches_df, transfers_df):
         all_teams_by_season.append(season_table)
 
     final_team_df = pd.concat(all_teams_by_season, ignore_index=True)
+
+    # Merge Understat advanced metrics
+    if not team_understat_df.empty:
+        log("Merging Understat xG, xGA, PPDA, and xPTS into team season table...")
+        final_team_df = final_team_df.merge(
+            team_understat_df,
+            on=['team_name', 'season_year'],
+            how='left'
+        )
+
     cols = [
         'season', 'season_year', 'league_rank', 'team_name', 'matches_played',
         'wins', 'draws', 'losses', 'goals_for', 'goals_against', 'goal_difference', 'points',
+        'xG', 'xGA', 'xGD', 'npxG', 'npxGA', 'npxGD', 'ppda', 'ppda_allowed', 'deep_completions', 'deep_allowed', 'xPTS',
         'home_wins', 'home_draws', 'home_losses', 'home_goals_for', 'home_goals_against',
         'away_wins', 'away_draws', 'away_losses', 'away_goals_for', 'away_goals_against',
         'clean_sheets', 'total_shots', 'total_shots_on_target', 'corners', 'fouls_committed',
         'yellow_cards', 'red_cards', 'managers_in_charge',
         'total_transfer_spend_eur', 'total_transfer_income_eur', 'net_transfer_spend_eur'
     ]
-    return final_team_df[cols]
+    # Filter only available columns
+    avail_cols = [c for c in cols if c in final_team_df.columns]
+    return final_team_df[avail_cols]
 
 def main():
     log("=== Starting Premier League Historical Data Pipeline ===")
     
-    # 1. Download / Load Core Datasets
+    # 1. Ingest Transfermarkt Core Datasets
     log("Step 1: Ingesting Transfermarkt Core Datasets...")
     clubs_df = download_csv_gz(R2_BASE + 'clubs.csv.gz')
     games_df = download_csv_gz(R2_BASE + 'games.csv.gz')
@@ -571,31 +693,35 @@ def main():
     epl_clubs_set = set(epl_clubs['name'].apply(standard_club_name))
     log(f"Identified {len(epl_clubs_set)} Premier League clubs.")
 
-    # 2. Build Coaches History
-    log("Step 2: Processing Coaches & Managerial Tenures...")
+    # 2. Fetch Advanced Stats from Understat
+    log("Step 2: Fetching Advanced Stats (xG, xGA, PPDA, xPTS, Deep completions)...")
+    team_understat_df, player_understat_df = fetch_understat_data()
+
+    # 3. Build Coaches History
+    log("Step 3: Processing Coaches & Managerial Tenures...")
     coaches_df = build_coaches_history(games_df)
     coaches_path = os.path.join(DATA_DIR, 'epl_coaches_history.csv')
     coaches_df.to_csv(coaches_path, index=False)
     log(f"-> Saved: {coaches_path} ({len(coaches_df)} records)")
 
-    # 3. Build Transfers
-    log("Step 3: Processing Premier League Transfers...")
+    # 4. Build Transfers
+    log("Step 4: Processing Premier League Transfers...")
     transfers_df = build_transfers(transfers_raw=transfers_df_raw, epl_clubs_set=epl_clubs_set)
     transfers_path = os.path.join(DATA_DIR, 'epl_transfers.csv')
     transfers_df.to_csv(transfers_path, index=False)
     log(f"-> Saved: {transfers_path} ({len(transfers_df)} records)")
 
-    # 4. Build Player Season Performance Stats
-    log("Step 4: Processing Player Seasonal Performance Stats...")
-    players_stats_df = build_player_season_stats(players_df, appearances_df, games_df)
+    # 5. Build Player Season Performance Stats
+    log("Step 5: Processing Player Seasonal Performance Stats...")
+    players_stats_df = build_player_season_stats(players_df, appearances_df, games_df, player_understat_df)
     player_path = os.path.join(DATA_DIR, 'epl_player_season_stats.csv')
     players_stats_df.to_csv(player_path, index=False)
     log(f"-> Saved: {player_path} ({len(players_stats_df)} records)")
 
-    # 5. Fetch Match Stats & Build Team Season Performance Table
-    log("Step 5: Processing Team Standings, Match Stats & Season Performance...")
+    # 6. Fetch Match Stats & Build Team Season Performance Table
+    log("Step 6: Processing Team Standings, Match Stats & Season Performance...")
     fd_matches = fetch_football_data_matches()
-    team_stats_df = build_team_season_stats(fd_matches, coaches_df, transfers_df)
+    team_stats_df = build_team_season_stats(fd_matches, coaches_df, transfers_df, team_understat_df)
     team_path = os.path.join(DATA_DIR, 'epl_team_season_stats.csv')
     team_stats_df.to_csv(team_path, index=False)
     log(f"-> Saved: {team_path} ({len(team_stats_df)} records)")

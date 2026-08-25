@@ -2,6 +2,9 @@
 
 A comprehensive data engineering and analysis project covering the last 16 English Premier League (EPL) seasons. This repository contains structured datasets for team performance, individual player statistics, advanced metrics (xG, xGA, PPDA, xPTS, Deep completions), transfer market activities, and managerial tenures, alongside an automated extraction pipeline.
 
+> [!TIP]
+> For a full mathematical breakdown, diagrams, and benchmarks of modern tactical metrics, refer to the **[Advanced Football Analytics Guide](ADVANCED_STATS_GUIDE.md)**.
+
 ---
 
 ## 📁 Repository Structure
@@ -15,24 +18,37 @@ liverpool analysis/
 │   └── epl_coaches_history.csv       # Manager appointments, departures, match records, PPG & win rates
 ├── scripts/
 │   └── fetch_epl_data.py             # Reproducible data extraction and aggregation pipeline
+├── ADVANCED_STATS_GUIDE.md           # Detailed guide to all advanced metrics (xG, PPDA, xPTS, xGChain)
 ├── .gitignore
 └── README.md
 ```
 
 ---
 
-## 🌐 Data Sources & Methodology
+## 🧠 Advanced Statistics Quick Reference
 
-1. **Football-Data.co.uk**: Match-by-match results, scores, shots, shots on target, corners, fouls, and disciplinary cards across 16 seasons (2010/11 through 2025/26).
-2. **Understat (Opta-based Expected Metrics)**: Team and player advanced metrics from 2014/15 through 2025/26:
-   - **`xG` / `xGA`**: Expected goals scored and conceded based on shot quality.
-   - **`npxG` / `npxGA` / `npxGD`**: Non-penalty expected goal metrics.
-   - **`ppda`**: Passes Allowed Per Defensive Action (pressing intensity: lower value = more intense, aggressive pressing).
-   - **`ppda_allowed`**: Opponent PPDA against the team (resistance to opponent pressing).
-   - **`deep_completions` / `deep_allowed`**: Passes completed within 20 yards of the opponent's goal.
-   - **`xPTS`**: Expected points based on match xG simulations.
-   - **`xA`, `shots`, `key_passes`, `xGChain`, `xGBuildup`**: Granular player creative and build-up involvement.
-3. **Transfermarkt**: Complete player career valuations, transfer records with fees (€), and managerial match-by-match histories.
+| Metric | Name | Definition & Tactical Meaning |
+| :--- | :--- | :--- |
+| **`xG` / `xGA`** | **Expected Goals (For / Against)** | Probability (0 to 1) that a shot results in a goal based on historical shot models (distance, angle, body part, assist type). |
+| **`xGD`** | **Expected Goal Difference** | $xG - xGA$. The most robust indicator of true overall team performance. |
+| **`npxG` / `npxGA`** | **Non-Penalty xG** | Expected goals excluding penalties (~0.76 xG), showing open-play and regular set-piece strength. |
+| **`ppda`** | **Passes Per Defensive Action** | Quantifies pressing intensity in opponent's defensive 60% ($\frac{\text{Opponent Passes}}{\text{Defensive Actions}}$). **Lower value = more aggressive high pressing** (<8.5 = Elite Gegenpress). |
+| **`ppda_allowed`** | **Opponent PPDA** | Opponent's PPDA against this team. Higher value = team breaks opponent press easily. |
+| **`deep_completions`**| **Deep Zone Completions** | Passes completed within 20 yards of opponent goal (excluding crosses). Measures danger zone penetration. |
+| **`xPTS`** | **Expected Points** | Simulated points earned based on the underlying xG profile of each match. |
+| **`xA`** | **Expected Assists** | Chance creation quality; the xG of the shot that directly followed a player's pass. |
+| **`xGChain`** | **xG Chain** | Total xG of every possession move the player touched the ball in. |
+| **`xGBuildup`** | **xG Build-Up** | Total xG of sequences the player participated in **excluding** the shot itself and final pass (evaluating deep playmakers and defenders). |
+
+*For deep dive explanations and tactical case studies, see [ADVANCED_STATS_GUIDE.md](ADVANCED_STATS_GUIDE.md).*
+
+---
+
+## 🌐 Data Sources
+
+1. **[Understat](https://understat.com/) (Opta-based Expected Metrics)**: Team and player advanced metrics from 2014/15 through 2025/26.
+2. **[Football-Data.co.uk](https://www.football-data.co.uk/)**: Match results, scores, shots, shots on target, corners, fouls, and disciplinary cards across 16 seasons (2010/11 through 2025/26).
+3. **[Transfermarkt](https://www.transfermarkt.com/)**: Complete player market valuations, transfer records with fees in Euros (€), and managerial match-by-match histories.
 
 ---
 
@@ -45,85 +61,31 @@ liverpool analysis/
   - `season_year`: Season start year (`2025`, `2024`, etc.)
   - `league_rank`: Final league position (1 to 20)
   - `team_name`: Normalized club name (e.g. `Liverpool`, `Manchester City`, `Arsenal`)
-  - `matches_played`, `wins`, `draws`, `losses`: Win/draw/loss counts
-  - `goals_for`, `goals_against`, `goal_difference`, `points`: Standard table
-  - **Advanced Metrics (Understat)**:
-    - `xG`: Total Expected Goals
-    - `xGA`: Total Expected Goals Against
-    - `xGD`: Expected Goal Difference (`xG - xGA`)
-    - `npxG`: Non-Penalty Expected Goals
-    - `npxGA`: Non-Penalty Expected Goals Against
-    - `npxGD`: Non-Penalty Expected Goal Difference
-    - `ppda`: Pressing Intensity (Passes Per Defensive Action)
-    - `ppda_allowed`: Opponent Pressing Intensity
-    - `deep_completions`: Passes completed inside opponent's 20-yard zone
-    - `deep_allowed`: Deep completions allowed
-    - `xPTS`: Expected Points
-  - `home_wins`, `home_draws`, `home_losses`, `home_goals_for`, `home_goals_against`: Home record
-  - `away_wins`, `away_draws`, `away_losses`, `away_goals_for`, `away_goals_against`: Away record
-  - `clean_sheets`: Zero-goal conceded matches
-  - `total_shots`, `total_shots_on_target`: Shot volume & accuracy
-  - `corners`, `fouls_committed`, `yellow_cards`, `red_cards`: In-match tactical indicators
+  - `matches_played`, `wins`, `draws`, `losses`, `goals_for`, `goals_against`, `goal_difference`, `points`
+  - **Advanced Metrics**: `xG`, `xGA`, `xGD`, `npxG`, `npxGA`, `npxGD`, `ppda`, `ppda_allowed`, `deep_completions`, `deep_allowed`, `xPTS`
+  - `home_wins`, `home_draws`, `home_losses`, `home_goals_for`, `home_goals_against`
+  - `away_wins`, `away_draws`, `away_losses`, `away_goals_for`, `away_goals_against`
+  - `clean_sheets`, `total_shots`, `total_shots_on_target`, `corners`, `fouls_committed`, `yellow_cards`, `red_cards`
   - `managers_in_charge`: Head coaches during the season
-  - `total_transfer_spend_eur`, `total_transfer_income_eur`, `net_transfer_spend_eur`: Financial transfer balance
+  - `total_transfer_spend_eur`, `total_transfer_income_eur`, `net_transfer_spend_eur`: Financial balance
 
 ---
 
 ### 2. Player Seasonal Performance (`data/epl_player_season_stats.csv`)
 - **Rows**: 7,425 player-season records
-- **Key Columns**:
-  - `player_id`: Unique Transfermarkt player ID
-  - `player_name`: Full player name
-  - `season`, `season_year`: Season identifier
-  - `club_name`: Club represented
-  - `position`, `sub_position`: Player role (Attack, Midfield, Defender, Goalkeeper)
-  - `country_of_citizenship`, `date_of_birth`, `age_in_season`: Demographics
-  - `appearances`, `minutes_played`: Playing time
-  - `goals`, `assists`: Traditional output
-  - `goals_per_90`, `assists_per_90`, `goal_contributions_per_90`: Per-90 rates
-  - **Advanced Metrics**:
-    - `xG`: Expected Goals
-    - `npxG`: Non-Penalty xG
-    - `xA`: Expected Assists
-    - `shots`: Total shots taken
-    - `key_passes`: Passes leading to a shot
-    - `xGChain`: Possession chains leading to a shot
-    - `xGBuildup`: Build-up involvement excluding shot & key pass
-  - `yellow_cards`, `red_cards`: Discipline
-  - `market_value_eur`, `highest_market_value_eur`: Financial market value
+- **Columns**: `player_id`, `player_name`, `season`, `season_year`, `club_name`, `position`, `sub_position`, `country_of_citizenship`, `date_of_birth`, `age_in_season`, `appearances`, `minutes_played`, `goals`, `assists`, `goals_per_90`, `assists_per_90`, `goal_contributions_per_90`, **`xG`**, **`npxG`**, **`xA`**, **`shots`**, **`key_passes`**, **`xGChain`**, **`xGBuildup`**, `yellow_cards`, `red_cards`, `market_value_eur`, `highest_market_value_eur`.
 
 ---
 
 ### 3. Premier League Transfers (`data/epl_transfers.csv`)
 - **Rows**: 10,311 transfer records (2010–2026)
-- **Key Columns**:
-  - `player_name`, `player_id`: Transferred player
-  - `season`, `season_year`: Season of transfer
-  - `transfer_date`: Exact date (YYYY-MM-DD)
-  - `transfer_window`: `Summer` or `Winter`
-  - `pl_club_involved`: The Premier League club involved
-  - `transfer_direction`: `In (Arrival)` or `Out (Departure)`
-  - `from_club_name`, `to_club_name`: Origin and destination clubs
-  - `transfer_fee_eur`: Cleaned transfer fee in Euros (`0.0` for free/loans)
-  - `market_value_eur`: Estimated market value at transfer time
-  - `transfer_type`: `Permanent Transfer` or `Free / Loan`
+- **Columns**: `player_name`, `player_id`, `season`, `season_year`, `transfer_date`, `transfer_window`, `pl_club_involved`, `transfer_direction` (`In`/`Out`), `from_club_name`, `to_club_name`, `transfer_fee_eur`, `market_value_eur`, `transfer_type`.
 
 ---
 
 ### 4. Coaches & Managerial Tenures (`data/epl_coaches_history.csv`)
 - **Rows**: 430 managerial tenure records
-- **Key Columns**:
-  - `coach_name`: Full name of manager / head coach
-  - `club_name`: Club managed
-  - `season`, `season_year`: Season of tenure
-  - `appointed_first_match`: Date of first match in charge
-  - `departed_last_match`: Date of last match in charge
-  - `tenure_status`: `Full Season` or `Partial Season / Interim`
-  - `matches_managed`: Premier League matches in charge
-  - `wins`, `draws`, `losses`, `points`: Match outcomes
-  - `points_per_game`: Average points per game (PPG)
-  - `win_percentage`: Percentage of matches won
-  - `goals_for`, `goals_against`, `goal_difference`: Goal output under this coach
+- **Columns**: `coach_name`, `club_name`, `season`, `season_year`, `appointed_first_match`, `departed_last_match`, `tenure_status`, `matches_managed`, `wins`, `draws`, `losses`, `points`, `points_per_game`, `win_percentage`, `goals_for`, `goals_against`, `goal_difference`.
 
 ---
 

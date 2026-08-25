@@ -1,0 +1,431 @@
+coach_name,club_name,season,season_year,appointed_first_match,departed_last_match,tenure_status,matches_managed,wins,draws,losses,points,points_per_game,win_percentage,goals_for,goals_against,goal_difference
+Andoni Iraola,AFC Bournemouth,2025-2026,2025,2025-08-15,2026-05-24,Full Season,38,13,18,7,57,1.5,34.2,58,54,4
+Mikel Arteta,Arsenal,2025-2026,2025,2025-08-17,2026-05-24,Full Season,38,26,7,5,85,2.24,68.4,71,27,44
+Unai Emery,Aston Villa,2025-2026,2025,2025-08-16,2026-05-24,Full Season,38,19,8,11,65,1.71,50.0,56,49,7
+Keith Andrews,Brentford,2025-2026,2025,2025-08-17,2026-05-24,Full Season,38,14,11,13,53,1.39,36.8,55,52,3
+Fabian Hürzeler,Brighton & Hove Albion,2025-2026,2025,2025-08-16,2026-05-24,Full Season,38,14,11,13,53,1.39,36.8,52,46,6
+Scott Parker,Burnley,2025-2026,2025,2025-08-16,2026-04-22,Partial Season / Interim,34,4,8,22,20,0.59,11.8,34,68,-34
+Mike Jackson,Burnley,2025-2026,2025,2026-05-01,2026-05-24,Partial Season / Interim,4,0,2,2,2,0.5,0.0,4,7,-3
+Enzo Maresca,Chelsea,2025-2026,2025,2025-08-17,2025-12-30,Partial Season (Early Exit),19,8,6,5,30,1.58,42.1,32,21,11
+Calum McFarlane,Chelsea,2025-2026,2025,2026-01-04,2026-05-24,Partial Season / Interim,6,1,2,3,5,0.83,16.7,7,10,-3
+Liam Rosenior,Chelsea,2025-2026,2025,2026-01-17,2026-04-21,Partial Season / Interim,13,5,2,6,17,1.31,38.5,19,21,-2
+Oliver Glasner,Crystal Palace,2025-2026,2025,2025-08-17,2026-05-24,Full Season,38,11,12,15,45,1.18,28.9,41,51,-10
+David Moyes,Everton,2025-2026,2025,2025-08-18,2026-05-24,Full Season,38,13,10,15,49,1.29,34.2,47,50,-3
+Marco Silva,Fulham,2025-2026,2025,2025-08-16,2026-05-24,Full Season,38,15,7,16,52,1.37,39.5,47,51,-4
+Daniel Farke,Leeds United,2025-2026,2025,2025-08-18,2026-05-24,Full Season,38,11,14,13,47,1.24,28.9,49,56,-7
+Arne Slot,Liverpool,2025-2026,2025,2025-08-15,2026-05-24,Full Season,38,17,9,12,60,1.58,44.7,63,53,10
+Pep Guardiola,Manchester City,2025-2026,2025,2025-08-16,2026-05-24,Full Season,38,23,9,6,78,2.05,60.5,77,35,42
+Rúben Amorim,Manchester United,2025-2026,2025,2025-08-17,2026-01-04,Partial Season (Early Exit),20,8,7,5,31,1.55,40.0,34,30,4
+Darren Fletcher,Manchester United,2025-2026,2025,2026-01-07,2026-01-07,Partial Season (Early Exit),1,0,1,0,1,1.0,0.0,2,2,0
+Michael Carrick,Manchester United,2025-2026,2025,2026-01-17,2026-05-24,Partial Season / Interim,17,12,3,2,39,2.29,70.6,33,18,15
+Eddie Howe,Newcastle United,2025-2026,2025,2025-08-16,2026-05-24,Full Season,38,14,7,17,49,1.29,36.8,53,55,-2
+Nuno Espírito Santo,Nottingham Forest,2025-2026,2025,2025-08-17,2025-08-31,Partial Season / Interim,3,1,1,1,4,1.33,33.3,4,5,-1
+Ange Postecoglou,Nottingham Forest,2025-2026,2025,2025-09-13,2025-10-18,Partial Season (Early Exit),5,0,1,4,1,0.2,0.0,1,10,-9
+Sean Dyche,Nottingham Forest,2025-2026,2025,2025-10-26,2026-02-11,Partial Season (Early Exit),18,6,4,8,22,1.22,33.3,20,23,-3
+Vítor Pereira,Nottingham Forest,2025-2026,2025,2026-02-22,2026-05-24,Partial Season / Interim,12,4,5,3,17,1.42,33.3,23,13,10
+Régis Le Bris,Sunderland,2025-2026,2025,2025-08-16,2026-05-24,Full Season,38,14,12,12,54,1.42,36.8,42,48,-6
+Thomas Frank,Tottenham Hotspur,2025-2026,2025,2025-08-16,2026-02-10,Partial Season (Early Exit),26,7,8,11,29,1.12,26.9,36,37,-1
+Igor Tudor,Tottenham Hotspur,2025-2026,2025,2026-02-22,2026-03-22,Partial Season (Early Exit),5,0,1,4,1,0.2,0.0,4,13,-9
+Roberto De Zerbi,Tottenham Hotspur,2025-2026,2025,2026-04-12,2026-05-24,Partial Season / Interim,7,3,2,2,11,1.57,42.9,8,7,1
+Graham Potter,West Ham United,2025-2026,2025,2025-08-16,2025-09-20,Partial Season (Early Exit),5,1,0,4,3,0.6,20.0,5,13,-8
+Nuno Espírito Santo,West Ham United,2025-2026,2025,2025-09-29,2026-05-24,Partial Season / Interim,33,9,9,15,36,1.09,27.3,41,52,-11
+Vítor Pereira,Wolverhampton Wanderers,2025-2026,2025,2025-08-16,2025-11-01,Partial Season (Early Exit),10,0,2,8,2,0.2,0.0,7,22,-15
+Jamie Collins,Wolverhampton Wanderers,2025-2026,2025,2025-11-08,2025-11-08,Partial Season (Early Exit),1,0,0,1,0,0.0,0.0,0,3,-3
+Rob Edwards,Wolverhampton Wanderers,2025-2026,2025,2025-11-22,2026-05-24,Partial Season / Interim,27,3,9,15,18,0.67,11.1,20,43,-23
+Andoni Iraola,AFC Bournemouth,2024-2025,2024,2024-08-17,2025-05-25,Full Season,38,15,11,12,56,1.47,39.5,58,46,12
+Mikel Arteta,Arsenal,2024-2025,2024,2024-08-17,2025-05-25,Full Season,38,20,14,4,74,1.95,52.6,69,34,35
+Unai Emery,Aston Villa,2024-2025,2024,2024-08-17,2025-05-25,Full Season,38,19,9,10,66,1.74,50.0,58,51,7
+Thomas Frank,Brentford,2024-2025,2024,2024-08-18,2025-05-25,Full Season,38,16,8,14,56,1.47,42.1,66,57,9
+Fabian Hürzeler,Brighton & Hove Albion,2024-2025,2024,2024-08-17,2025-05-25,Full Season,38,16,13,9,61,1.61,42.1,66,59,7
+Enzo Maresca,Chelsea,2024-2025,2024,2024-08-18,2025-05-25,Full Season,38,20,9,9,69,1.82,52.6,64,43,21
+Oliver Glasner,Crystal Palace,2024-2025,2024,2024-08-18,2025-05-25,Full Season,38,13,14,11,53,1.39,34.2,51,51,0
+Sean Dyche,Everton,2024-2025,2024,2024-08-17,2025-01-04,Partial Season (Early Exit),19,3,8,8,17,0.89,15.8,15,25,-10
+David Moyes,Everton,2024-2025,2024,2025-01-15,2025-05-25,Partial Season / Interim,19,8,7,4,31,1.63,42.1,27,19,8
+Marco Silva,Fulham,2024-2025,2024,2024-08-16,2025-05-25,Full Season,38,15,9,14,54,1.42,39.5,54,54,0
+Kieran McKenna,Ipswich Town,2024-2025,2024,2024-08-17,2025-05-25,Full Season,38,4,10,24,22,0.58,10.5,36,82,-46
+Steve Cooper,Leicester City,2024-2025,2024,2024-08-19,2024-11-23,Partial Season (Early Exit),12,2,4,6,10,0.83,16.7,15,23,-8
+Ben Dawson,Leicester City,2024-2025,2024,2024-11-30,2024-11-30,Partial Season (Early Exit),1,0,0,1,0,0.0,0.0,1,4,-3
+Ruud van Nistelrooy,Leicester City,2024-2025,2024,2024-12-03,2025-05-25,Partial Season / Interim,25,4,3,18,15,0.6,16.0,17,53,-36
+Arne Slot,Liverpool,2024-2025,2024,2024-08-17,2025-05-25,Full Season,38,25,9,4,84,2.21,65.8,86,41,45
+Pep Guardiola,Manchester City,2024-2025,2024,2024-08-18,2025-05-25,Full Season,38,21,8,9,71,1.87,55.3,72,44,28
+Erik ten Hag,Manchester United,2024-2025,2024,2024-08-16,2024-10-27,Partial Season (Early Exit),9,3,2,4,11,1.22,33.3,8,11,-3
+Ruud van Nistelrooy,Manchester United,2024-2025,2024,2024-11-03,2024-11-10,Partial Season (Early Exit),2,1,1,0,4,2.0,50.0,4,1,3
+Rúben Amorim,Manchester United,2024-2025,2024,2024-11-24,2025-05-25,Partial Season / Interim,27,7,6,14,27,1.0,25.9,32,42,-10
+Eddie Howe,Newcastle United,2024-2025,2024,2024-08-17,2025-05-25,Full Season,38,20,6,12,66,1.74,52.6,68,47,21
+Nuno Espírito Santo,Nottingham Forest,2024-2025,2024,2024-08-17,2025-05-25,Partial Season / Interim,36,17,8,11,59,1.64,47.2,54,46,8
+Rui Pedro Silva,Nottingham Forest,2024-2025,2024,2024-10-21,2024-11-02,Partial Season (Early Exit),2,2,0,0,6,3.0,100.0,4,0,4
+Russell Martin,Southampton,2024-2025,2024,2024-08-17,2024-12-15,Partial Season (Early Exit),16,1,2,13,5,0.31,6.2,11,36,-25
+Simon Rusk,Southampton,2024-2025,2024,2024-12-22,2025-05-25,Partial Season / Interim,8,0,3,5,3,0.38,0.0,3,12,-9
+Ivan Juric,Southampton,2024-2025,2024,2024-12-26,2025-04-06,Partial Season / Interim,14,1,1,12,4,0.29,7.1,12,38,-26
+Ange Postecoglou,Tottenham Hotspur,2024-2025,2024,2024-08-19,2025-05-25,Full Season,38,11,5,22,38,1.0,28.9,64,65,-1
+Julen Lopetegui,West Ham United,2024-2025,2024,2024-08-17,2025-01-04,Partial Season (Early Exit),20,6,5,9,23,1.15,30.0,24,39,-15
+Graham Potter,West Ham United,2024-2025,2024,2025-01-14,2025-05-25,Partial Season / Interim,18,5,5,8,20,1.11,27.8,22,23,-1
+Gary O'Neil,Wolverhampton Wanderers,2024-2025,2024,2024-08-17,2024-12-14,Partial Season (Early Exit),16,2,3,11,9,0.56,12.5,24,40,-16
+Vítor Pereira,Wolverhampton Wanderers,2024-2025,2024,2024-12-22,2025-05-25,Partial Season / Interim,22,10,3,9,33,1.5,45.5,30,29,1
+Andoni Iraola,AFC Bournemouth,2023-2024,2023,2023-08-12,2024-05-19,Full Season,38,13,9,16,48,1.26,34.2,54,67,-13
+Mikel Arteta,Arsenal,2023-2024,2023,2023-08-12,2024-05-19,Full Season,38,28,5,5,89,2.34,73.7,91,29,62
+Unai Emery,Aston Villa,2023-2024,2023,2023-08-12,2024-05-19,Full Season,38,20,8,10,68,1.79,52.6,76,61,15
+Thomas Frank,Brentford,2023-2024,2023,2023-08-13,2024-05-19,Full Season,38,10,9,19,39,1.03,26.3,56,65,-9
+Roberto De Zerbi,Brighton & Hove Albion,2023-2024,2023,2023-08-12,2024-05-19,Full Season,38,12,12,14,48,1.26,31.6,55,62,-7
+Vincent Kompany,Burnley,2023-2024,2023,2023-08-11,2024-05-19,Full Season,38,5,9,24,24,0.63,13.2,41,78,-37
+Mauricio Pochettino,Chelsea,2023-2024,2023,2023-08-13,2024-05-19,Full Season,38,18,9,11,63,1.66,47.4,77,63,14
+Roy Hodgson,Crystal Palace,2023-2024,2023,2023-08-12,2024-02-12,Partial Season (Early Exit),24,6,6,12,24,1.0,25.0,27,43,-16
+Ray Lewington,Crystal Palace,2023-2024,2023,2024-02-19,2024-02-19,Partial Season (Early Exit),1,0,1,0,1,1.0,0.0,1,1,0
+Oliver Glasner,Crystal Palace,2023-2024,2023,2024-02-24,2024-05-19,Partial Season / Interim,13,7,3,3,24,1.85,53.8,29,14,15
+Sean Dyche,Everton,2023-2024,2023,2023-08-12,2024-05-19,Partial Season / Interim,37,13,9,15,48,1.3,35.1,40,49,-9
+Ian Woan,Everton,2023-2024,2023,2024-02-10,2024-02-10,Partial Season (Early Exit),1,0,0,1,0,0.0,0.0,0,2,-2
+Marco Silva,Fulham,2023-2024,2023,2023-08-12,2024-05-19,Full Season,38,13,8,17,47,1.24,34.2,55,61,-6
+Jürgen Klopp,Liverpool,2023-2024,2023,2023-08-13,2024-05-19,Full Season,38,24,10,4,82,2.16,63.2,86,41,45
+Rob Edwards,Luton Town,2023-2024,2023,2023-08-12,2024-05-19,Full Season,38,6,8,24,26,0.68,15.8,52,85,-33
+Pep Guardiola,Manchester City,2023-2024,2023,2023-08-11,2024-05-19,Full Season,38,28,7,3,91,2.39,73.7,96,34,62
+Erik ten Hag,Manchester United,2023-2024,2023,2023-08-14,2024-05-19,Full Season,38,18,6,14,60,1.58,47.4,57,58,-1
+Eddie Howe,Newcastle United,2023-2024,2023,2023-08-12,2024-05-19,Full Season,38,18,6,14,60,1.58,47.4,85,62,23
+Steve Cooper,Nottingham Forest,2023-2024,2023,2023-08-12,2023-12-15,Partial Season (Early Exit),17,3,5,9,14,0.82,17.6,17,30,-13
+Nuno Espírito Santo,Nottingham Forest,2023-2024,2023,2023-12-23,2024-05-19,Partial Season / Interim,21,6,4,11,22,1.05,28.6,32,37,-5
+Paul Heckingbottom,Sheffield United,2023-2024,2023,2023-08-12,2023-12-02,Partial Season (Early Exit),14,1,2,11,5,0.36,7.1,11,39,-28
+Chris Wilder,Sheffield United,2023-2024,2023,2023-12-06,2024-05-19,Partial Season / Interim,24,2,5,17,11,0.46,8.3,24,65,-41
+Ange Postecoglou,Tottenham Hotspur,2023-2024,2023,2023-08-13,2024-05-19,Full Season,38,20,6,12,66,1.74,52.6,74,61,13
+David Moyes,West Ham United,2023-2024,2023,2023-08-12,2024-05-19,Full Season,38,14,10,14,52,1.37,36.8,60,74,-14
+Gary O'Neil,Wolverhampton Wanderers,2023-2024,2023,2023-08-14,2024-05-19,Full Season,38,13,7,18,46,1.21,34.2,50,65,-15
+Scott Parker,AFC Bournemouth,2022-2023,2022,2022-08-06,2022-08-27,Partial Season / Interim,4,1,0,3,3,0.75,25.0,2,16,-14
+Gary O'Neil,AFC Bournemouth,2022-2023,2022,2022-08-31,2023-05-28,Partial Season / Interim,34,10,6,18,36,1.06,29.4,35,55,-20
+Mikel Arteta,Arsenal,2022-2023,2022,2022-08-05,2023-05-28,Full Season,38,26,6,6,84,2.21,68.4,88,43,45
+Steven Gerrard,Aston Villa,2022-2023,2022,2022-08-06,2022-10-20,Partial Season (Early Exit),11,2,3,6,9,0.82,18.2,7,16,-9
+Aaron Danks,Aston Villa,2022-2023,2022,2022-10-23,2022-10-29,Partial Season (Early Exit),2,1,0,1,3,1.5,50.0,4,4,0
+Unai Emery,Aston Villa,2022-2023,2022,2022-11-06,2023-05-28,Partial Season / Interim,25,15,4,6,49,1.96,60.0,40,26,14
+Thomas Frank,Brentford,2022-2023,2022,2022-08-07,2023-05-28,Full Season,38,15,14,9,59,1.55,39.5,58,46,12
+Graham Potter,Brighton & Hove Albion,2022-2023,2022,2022-08-07,2022-09-04,Partial Season (Early Exit),6,4,1,1,13,2.17,66.7,11,5,6
+Roberto De Zerbi,Brighton & Hove Albion,2022-2023,2022,2022-10-01,2023-05-28,Partial Season / Interim,32,14,7,11,49,1.53,43.8,61,48,13
+Thomas Tuchel,Chelsea,2022-2023,2022,2022-08-06,2022-09-03,Partial Season (Early Exit),6,3,1,2,10,1.67,50.0,8,9,-1
+Graham Potter,Chelsea,2022-2023,2022,2022-10-01,2023-04-01,Partial Season / Interim,22,7,7,8,28,1.27,31.8,21,21,0
+Bruno Saltor,Chelsea,2022-2023,2022,2023-04-04,2023-04-04,Partial Season / Interim,1,0,1,0,1,1.0,0.0,0,0,0
+Frank Lampard,Chelsea,2022-2023,2022,2023-04-08,2023-05-28,Partial Season / Interim,9,1,2,6,5,0.56,11.1,9,17,-8
+Patrick Vieira,Crystal Palace,2022-2023,2022,2022-08-05,2023-03-15,Partial Season (Early Exit),27,6,9,12,27,1.0,22.2,21,34,-13
+Patrick McCarthy,Crystal Palace,2022-2023,2022,2023-03-19,2023-03-19,Partial Season (Early Exit),1,0,0,1,0,0.0,0.0,1,4,-3
+Roy Hodgson,Crystal Palace,2022-2023,2022,2023-04-01,2023-05-28,Partial Season / Interim,10,5,3,2,18,1.8,50.0,18,11,7
+Frank Lampard,Everton,2022-2023,2022,2022-08-06,2023-01-21,Partial Season (Early Exit),20,3,6,11,15,0.75,15.0,15,28,-13
+Sean Dyche,Everton,2022-2023,2022,2023-02-04,2023-05-28,Partial Season / Interim,18,5,6,7,21,1.17,27.8,19,29,-10
+Marco Silva,Fulham,2022-2023,2022,2022-08-06,2023-05-28,Full Season,38,15,7,16,52,1.37,39.5,55,53,2
+Jesse Marsch,Leeds United,2022-2023,2022,2022-08-06,2023-02-05,Partial Season (Early Exit),20,4,6,10,18,0.9,20.0,26,34,-8
+Michael Skubala,Leeds United,2022-2023,2022,2023-02-08,2023-02-18,Partial Season (Early Exit),3,0,1,2,1,0.33,0.0,2,5,-3
+Javi Gracia,Leeds United,2022-2023,2022,2023-02-25,2023-04-30,Partial Season / Interim,11,3,2,6,11,1.0,27.3,15,28,-13
+Sam Allardyce,Leeds United,2022-2023,2022,2023-05-06,2023-05-28,Partial Season / Interim,4,0,1,3,1,0.25,0.0,5,11,-6
+Brendan Rodgers,Leicester City,2022-2023,2022,2022-08-07,2023-04-01,Partial Season / Interim,28,7,4,17,25,0.89,25.0,39,49,-10
+Adam Sadler,Leicester City,2022-2023,2022,2023-04-04,2023-04-08,Partial Season / Interim,2,0,0,2,0,0.0,0.0,1,3,-2
+Dean Smith,Leicester City,2022-2023,2022,2023-04-15,2023-05-28,Partial Season / Interim,8,2,3,3,9,1.12,25.0,11,16,-5
+Jürgen Klopp,Liverpool,2022-2023,2022,2022-08-06,2023-05-28,Full Season,38,19,10,9,67,1.76,50.0,75,47,28
+Pep Guardiola,Manchester City,2022-2023,2022,2022-08-07,2023-05-28,Full Season,38,28,5,5,89,2.34,73.7,94,33,61
+Erik ten Hag,Manchester United,2022-2023,2022,2022-08-07,2023-05-28,Full Season,38,23,6,9,75,1.97,60.5,58,43,15
+Eddie Howe,Newcastle United,2022-2023,2022,2022-08-06,2023-05-28,Full Season,38,19,14,5,71,1.87,50.0,68,33,35
+Steve Cooper,Nottingham Forest,2022-2023,2022,2022-08-06,2023-05-28,Full Season,38,9,11,18,38,1.0,23.7,38,68,-30
+Ralph Hasenhüttl,Southampton,2022-2023,2022,2022-08-06,2022-11-06,Partial Season (Early Exit),14,3,3,8,12,0.86,21.4,12,24,-12
+Nathan Jones,Southampton,2022-2023,2022,2022-11-12,2023-02-11,Partial Season (Early Exit),8,1,0,7,3,0.38,12.5,6,16,-10
+Rubén Sellés,Southampton,2022-2023,2022,2023-02-18,2023-05-28,Partial Season / Interim,16,2,4,10,10,0.62,12.5,18,33,-15
+Antonio Conte,Tottenham Hotspur,2022-2023,2022,2022-08-06,2023-03-18,Partial Season (Early Exit),28,15,4,9,49,1.75,53.6,52,40,12
+Cristian Stellini,Tottenham Hotspur,2022-2023,2022,2023-04-03,2023-04-23,Partial Season / Interim,4,1,1,2,4,1.0,25.0,6,11,-5
+Ryan Mason,Tottenham Hotspur,2022-2023,2022,2023-04-27,2023-05-28,Partial Season / Interim,6,2,1,3,7,1.17,33.3,12,12,0
+David Moyes,West Ham United,2022-2023,2022,2022-08-07,2023-05-28,Full Season,38,11,7,20,40,1.05,28.9,42,55,-13
+Bruno Lage,Wolverhampton Wanderers,2022-2023,2022,2022-08-06,2022-10-01,Partial Season (Early Exit),8,1,3,4,6,0.75,12.5,3,9,-6
+Steve Davis,Wolverhampton Wanderers,2022-2023,2022,2022-10-08,2022-11-12,Partial Season (Early Exit),7,1,1,5,4,0.57,14.3,5,15,-10
+Julen Lopetegui,Wolverhampton Wanderers,2022-2023,2022,2022-12-26,2023-05-28,Partial Season / Interim,23,9,4,10,31,1.35,39.1,23,34,-11
+Mikel Arteta,Arsenal,2021-2022,2021,2021-08-13,2022-05-22,Partial Season / Interim,37,22,3,12,69,1.86,59.5,60,46,14
+Albert Stuivenberg,Arsenal,2021-2022,2021,2022-01-01,2022-01-01,Partial Season (Early Exit),1,0,0,1,0,0.0,0.0,1,2,-1
+Dean Smith,Aston Villa,2021-2022,2021,2021-08-14,2021-11-05,Partial Season (Early Exit),11,3,1,7,10,0.91,27.3,14,20,-6
+Steven Gerrard,Aston Villa,2021-2022,2021,2021-11-20,2022-05-22,Partial Season / Interim,27,10,5,12,35,1.3,37.0,38,34,4
+Thomas Frank,Brentford,2021-2022,2021,2021-08-13,2022-05-22,Full Season,38,13,7,18,46,1.21,34.2,48,56,-8
+Graham Potter,Brighton & Hove Albion,2021-2022,2021,2021-08-14,2022-05-22,Partial Season / Interim,37,12,14,11,50,1.35,32.4,41,43,-2
+Björn Hamberg,Brighton & Hove Albion,2021-2022,2021,2022-01-23,2022-01-23,Partial Season (Early Exit),1,0,1,0,1,1.0,0.0,1,1,0
+Sean Dyche,Burnley,2021-2022,2021,2021-08-14,2022-04-10,Partial Season / Interim,30,4,12,14,24,0.8,13.3,25,44,-19
+Mike Jackson,Burnley,2021-2022,2021,2022-04-17,2022-05-22,Partial Season / Interim,8,3,2,3,11,1.38,37.5,9,9,0
+Thomas Tuchel,Chelsea,2021-2022,2021,2021-08-14,2022-05-22,Full Season,38,21,11,6,74,1.95,55.3,76,33,43
+Patrick Vieira,Crystal Palace,2021-2022,2021,2021-08-14,2022-05-22,Full Season,38,11,15,12,48,1.26,28.9,50,46,4
+Rafael Benítez,Everton,2021-2022,2021,2021-08-14,2022-01-15,Partial Season (Early Exit),19,5,4,10,19,1.0,26.3,24,34,-10
+Duncan Ferguson,Everton,2021-2022,2021,2022-01-22,2022-01-22,Partial Season (Early Exit),1,0,0,1,0,0.0,0.0,0,1,-1
+Frank Lampard,Everton,2021-2022,2021,2022-02-08,2022-05-22,Partial Season / Interim,18,6,2,10,20,1.11,33.3,19,31,-12
+Marcelo Bielsa,Leeds United,2021-2022,2021,2021-08-14,2022-02-26,Partial Season (Early Exit),26,5,8,13,23,0.88,19.2,29,60,-31
+Jesse Marsch,Leeds United,2021-2022,2021,2022-03-05,2022-05-22,Partial Season / Interim,12,4,3,5,15,1.25,33.3,13,19,-6
+Brendan Rodgers,Leicester City,2021-2022,2021,2021-08-14,2022-05-22,Full Season,38,14,10,14,52,1.37,36.8,62,59,3
+Jürgen Klopp,Liverpool,2021-2022,2021,2021-08-14,2022-05-22,Full Season,38,28,8,2,92,2.42,73.7,94,26,68
+Pep Guardiola,Manchester City,2021-2022,2021,2021-08-15,2022-05-22,Full Season,38,29,6,3,93,2.45,76.3,99,26,73
+Ole Gunnar Solskjær,Manchester United,2021-2022,2021,2021-08-14,2021-11-20,Partial Season (Early Exit),12,5,2,5,17,1.42,41.7,20,21,-1
+Michael Carrick,Manchester United,2021-2022,2021,2021-11-28,2021-12-02,Partial Season (Early Exit),2,1,1,0,4,2.0,50.0,4,3,1
+Ralf Rangnick,Manchester United,2021-2022,2021,2021-12-05,2022-05-22,Partial Season / Interim,24,10,7,7,37,1.54,41.7,33,33,0
+Steve Bruce,Newcastle United,2021-2022,2021,2021-08-15,2021-10-17,Partial Season (Early Exit),8,0,3,5,3,0.38,0.0,10,19,-9
+Graeme Jones,Newcastle United,2021-2022,2021,2021-10-23,2021-11-06,Partial Season (Early Exit),3,0,2,1,2,0.67,0.0,2,5,-3
+Eddie Howe,Newcastle United,2021-2022,2021,2021-11-20,2022-05-22,Partial Season / Interim,27,13,5,9,44,1.63,48.1,32,38,-6
+Daniel Farke,Norwich City,2021-2022,2021,2021-08-14,2021-11-06,Partial Season (Early Exit),11,1,2,8,5,0.45,9.1,5,26,-21
+Dean Smith,Norwich City,2021-2022,2021,2021-11-20,2022-05-22,Partial Season / Interim,27,4,5,18,17,0.63,14.8,18,58,-40
+Ralph Hasenhüttl,Southampton,2021-2022,2021,2021-08-14,2022-05-22,Full Season,38,9,13,16,40,1.05,23.7,43,67,-24
+Nuno Espírito Santo,Tottenham Hotspur,2021-2022,2021,2021-08-15,2021-10-30,Partial Season (Early Exit),10,5,0,5,15,1.5,50.0,9,16,-7
+Antonio Conte,Tottenham Hotspur,2021-2022,2021,2021-11-07,2022-05-22,Partial Season / Interim,28,17,5,6,56,2.0,60.7,60,24,36
+Xisco Muñoz,Watford,2021-2022,2021,2021-08-14,2021-10-02,Partial Season (Early Exit),7,2,1,4,7,1.0,28.6,7,10,-3
+Claudio Ranieri,Watford,2021-2022,2021,2021-10-16,2022-01-21,Partial Season (Early Exit),13,2,1,10,7,0.54,15.4,16,30,-14
+Roy Hodgson,Watford,2021-2022,2021,2022-02-05,2022-05-22,Partial Season / Interim,18,2,3,13,9,0.5,11.1,11,37,-26
+David Moyes,West Ham United,2021-2022,2021,2021-08-15,2022-05-22,Full Season,38,16,8,14,56,1.47,42.1,60,51,9
+Bruno Lage,Wolverhampton Wanderers,2021-2022,2021,2021-08-14,2022-05-22,Full Season,38,15,6,17,51,1.34,39.5,38,43,-5
+Mikel Arteta,Arsenal,2020-2021,2020,2020-09-12,2021-05-23,Full Season,38,18,7,13,61,1.61,47.4,55,39,16
+Dean Smith,Aston Villa,2020-2021,2020,2020-09-21,2021-05-23,Full Season,38,16,7,15,55,1.45,42.1,55,46,9
+Graham Potter,Brighton & Hove Albion,2020-2021,2020,2020-09-14,2021-05-23,Full Season,38,9,14,15,41,1.08,23.7,40,46,-6
+Sean Dyche,Burnley,2020-2021,2020,2020-09-20,2021-05-23,Full Season,38,10,9,19,39,1.03,26.3,33,55,-22
+Frank Lampard,Chelsea,2020-2021,2020,2020-09-14,2021-01-19,Partial Season (Early Exit),19,8,5,6,29,1.53,42.1,33,23,10
+Thomas Tuchel,Chelsea,2020-2021,2020,2021-01-27,2021-05-23,Partial Season / Interim,19,11,5,3,38,2.0,57.9,25,13,12
+Roy Hodgson,Crystal Palace,2020-2021,2020,2020-09-12,2021-05-23,Full Season,38,12,8,18,44,1.16,31.6,41,66,-25
+Carlo Ancelotti,Everton,2020-2021,2020,2020-09-13,2021-05-23,Full Season,38,17,8,13,59,1.55,44.7,47,48,-1
+Scott Parker,Fulham,2020-2021,2020,2020-09-12,2021-05-23,Full Season,38,5,13,20,28,0.74,13.2,27,53,-26
+Marcelo Bielsa,Leeds United,2020-2021,2020,2020-09-12,2021-05-23,Full Season,38,18,5,15,59,1.55,47.4,62,54,8
+Brendan Rodgers,Leicester City,2020-2021,2020,2020-09-13,2021-05-23,Full Season,38,20,6,12,66,1.74,52.6,68,50,18
+Jürgen Klopp,Liverpool,2020-2021,2020,2020-09-12,2021-05-23,Full Season,38,20,9,9,69,1.82,52.6,68,42,26
+Pep Guardiola,Manchester City,2020-2021,2020,2020-09-21,2021-05-23,Full Season,38,27,5,6,86,2.26,71.1,83,32,51
+Ole Gunnar Solskjær,Manchester United,2020-2021,2020,2020-09-19,2021-05-23,Full Season,38,21,11,6,74,1.95,55.3,73,44,29
+Steve Bruce,Newcastle United,2020-2021,2020,2020-09-12,2021-05-23,Full Season,38,12,9,17,45,1.18,31.6,46,62,-16
+Chris Wilder,Sheffield United,2020-2021,2020,2020-09-14,2021-03-06,Partial Season (Early Exit),28,4,2,22,14,0.5,14.3,16,45,-29
+Paul Heckingbottom,Sheffield United,2020-2021,2020,2021-03-14,2021-05-23,Partial Season / Interim,10,3,0,7,9,0.9,30.0,4,18,-14
+Ralph Hasenhüttl,Southampton,2020-2021,2020,2020-09-12,2021-05-23,Full Season,38,12,7,19,43,1.13,31.6,47,68,-21
+José Mourinho,Tottenham Hotspur,2020-2021,2020,2020-09-13,2021-04-16,Partial Season / Interim,32,14,8,10,50,1.56,43.8,54,37,17
+Ryan Mason,Tottenham Hotspur,2020-2021,2020,2021-04-21,2021-05-23,Partial Season / Interim,6,4,0,2,12,2.0,66.7,14,8,6
+Slaven Bilic,West Bromwich Albion,2020-2021,2020,2020-09-13,2020-12-15,Partial Season (Early Exit),13,1,4,8,7,0.54,7.7,10,26,-16
+Sam Allardyce,West Bromwich Albion,2020-2021,2020,2020-12-20,2021-05-23,Partial Season / Interim,25,4,7,14,19,0.76,16.0,25,50,-25
+David Moyes,West Ham United,2020-2021,2020,2020-09-12,2021-05-23,Full Season,38,19,8,11,65,1.71,50.0,62,47,15
+Nuno Espírito Santo,Wolverhampton Wanderers,2020-2021,2020,2020-09-14,2021-05-23,Full Season,38,12,9,17,45,1.18,31.6,36,52,-16
+Eddie Howe,AFC Bournemouth,2019-2020,2019,2019-08-10,2020-07-26,Full Season,38,9,7,22,34,0.89,23.7,40,65,-25
+Unai Emery,Arsenal,2019-2020,2019,2019-08-11,2019-11-23,Partial Season (Early Exit),13,4,6,3,18,1.38,30.8,18,19,-1
+Freddie Ljungberg,Arsenal,2019-2020,2019,2019-12-01,2019-12-21,Partial Season (Early Exit),5,1,2,2,5,1.0,20.0,6,8,-2
+Mikel Arteta,Arsenal,2019-2020,2019,2019-12-26,2020-07-26,Partial Season / Interim,20,9,6,5,33,1.65,45.0,32,21,11
+Dean Smith,Aston Villa,2019-2020,2019,2019-08-10,2020-07-26,Full Season,38,9,8,21,35,0.92,23.7,41,67,-26
+Graham Potter,Brighton & Hove Albion,2019-2020,2019,2019-08-10,2020-07-26,Full Season,38,9,14,15,41,1.08,23.7,39,54,-15
+Sean Dyche,Burnley,2019-2020,2019,2019-08-10,2020-07-26,Full Season,38,15,9,14,54,1.42,39.5,43,50,-7
+Frank Lampard,Chelsea,2019-2020,2019,2019-08-11,2020-07-26,Full Season,38,20,6,12,66,1.74,52.6,69,54,15
+Roy Hodgson,Crystal Palace,2019-2020,2019,2019-08-10,2020-07-26,Full Season,38,11,10,17,43,1.13,28.9,31,50,-19
+Marco Silva,Everton,2019-2020,2019,2019-08-10,2019-12-04,Partial Season (Early Exit),15,4,2,9,14,0.93,26.7,16,27,-11
+Duncan Ferguson,Everton,2019-2020,2019,2019-12-07,2019-12-21,Partial Season (Early Exit),3,1,2,0,5,1.67,33.3,4,2,2
+Carlo Ancelotti,Everton,2019-2020,2019,2019-12-26,2020-07-26,Partial Season / Interim,20,8,6,6,30,1.5,40.0,24,27,-3
+Brendan Rodgers,Leicester City,2019-2020,2019,2019-08-11,2020-07-26,Full Season,38,18,8,12,62,1.63,47.4,67,41,26
+Jürgen Klopp,Liverpool,2019-2020,2019,2019-08-09,2020-07-26,Full Season,38,32,3,3,99,2.61,84.2,85,33,52
+Pep Guardiola,Manchester City,2019-2020,2019,2019-08-10,2020-07-26,Full Season,38,26,3,9,81,2.13,68.4,102,35,67
+Ole Gunnar Solskjær,Manchester United,2019-2020,2019,2019-08-11,2020-07-26,Full Season,38,18,12,8,66,1.74,47.4,66,36,30
+Steve Bruce,Newcastle United,2019-2020,2019,2019-08-11,2020-07-26,Full Season,38,11,11,16,44,1.16,28.9,38,58,-20
+Daniel Farke,Norwich City,2019-2020,2019,2019-08-09,2020-07-26,Full Season,38,5,6,27,21,0.55,13.2,26,75,-49
+Chris Wilder,Sheffield United,2019-2020,2019,2019-08-10,2020-07-26,Full Season,38,14,12,12,54,1.42,36.8,39,39,0
+Ralph Hasenhüttl,Southampton,2019-2020,2019,2019-08-10,2020-07-26,Full Season,38,15,7,16,52,1.37,39.5,51,60,-9
+Mauricio Pochettino,Tottenham Hotspur,2019-2020,2019,2019-08-10,2019-11-09,Partial Season (Early Exit),12,3,5,4,14,1.17,25.0,18,17,1
+José Mourinho,Tottenham Hotspur,2019-2020,2019,2019-11-23,2020-07-26,Partial Season / Interim,26,13,6,7,45,1.73,50.0,43,30,13
+Javi Gracia,Watford,2019-2020,2019,2019-08-10,2019-08-31,Partial Season / Interim,4,0,1,3,1,0.25,0.0,2,8,-6
+Quique Sánchez Flores,Watford,2019-2020,2019,2019-09-15,2019-11-30,Partial Season (Early Exit),10,1,4,5,7,0.7,10.0,7,20,-13
+Hayden Mullins,Watford,2019-2020,2019,2019-12-04,2020-07-26,Partial Season / Interim,4,0,1,3,1,0.25,0.0,2,9,-7
+Nigel Pearson,Watford,2019-2020,2019,2019-12-14,2020-07-17,Partial Season / Interim,20,7,4,9,25,1.25,35.0,25,27,-2
+Manuel Pellegrini,West Ham United,2019-2020,2019,2019-08-10,2019-12-28,Partial Season (Early Exit),19,5,4,10,19,1.0,26.3,21,32,-11
+David Moyes,West Ham United,2019-2020,2019,2020-01-01,2020-07-26,Partial Season / Interim,19,5,5,9,20,1.05,26.3,28,30,-2
+Nuno Espírito Santo,Wolverhampton Wanderers,2019-2020,2019,2019-08-11,2020-07-26,Full Season,38,15,14,9,59,1.55,39.5,51,40,11
+Eddie Howe,AFC Bournemouth,2018-2019,2018,2018-08-11,2019-05-12,Full Season,38,13,6,19,45,1.18,34.2,56,70,-14
+Unai Emery,Arsenal,2018-2019,2018,2018-08-12,2019-05-12,Full Season,38,21,7,10,70,1.84,55.3,73,51,22
+Chris Hughton,Brighton & Hove Albion,2018-2019,2018,2018-08-11,2019-05-12,Full Season,38,9,9,20,36,0.95,23.7,35,60,-25
+Sean Dyche,Burnley,2018-2019,2018,2018-08-12,2019-05-12,Full Season,38,11,7,20,40,1.05,28.9,45,68,-23
+Neil Warnock,Cardiff City,2018-2019,2018,2018-08-11,2019-05-12,Full Season,38,10,4,24,34,0.89,26.3,34,69,-35
+Maurizio Sarri,Chelsea,2018-2019,2018,2018-08-11,2019-05-12,Full Season,38,21,9,8,72,1.89,55.3,63,39,24
+Roy Hodgson,Crystal Palace,2018-2019,2018,2018-08-11,2019-05-12,Full Season,38,14,7,17,49,1.29,36.8,51,53,-2
+Marco Silva,Everton,2018-2019,2018,2018-08-11,2019-05-12,Full Season,38,15,9,14,54,1.42,39.5,54,46,8
+Slavisa Jokanovic,Fulham,2018-2019,2018,2018-08-11,2018-11-11,Partial Season (Early Exit),12,1,2,9,5,0.42,8.3,11,31,-20
+Claudio Ranieri,Fulham,2018-2019,2018,2018-11-24,2019-02-27,Partial Season (Early Exit),16,3,3,10,12,0.75,18.8,15,32,-17
+Scott Parker,Fulham,2018-2019,2018,2019-03-03,2019-05-12,Partial Season / Interim,10,3,0,7,9,0.9,30.0,8,18,-10
+David Wagner,Huddersfield Town,2018-2019,2018,2018-08-11,2019-01-12,Partial Season (Early Exit),22,2,5,15,11,0.5,9.1,13,37,-24
+Mark Hudson,Huddersfield Town,2018-2019,2018,2019-01-20,2019-01-20,Partial Season (Early Exit),1,0,0,1,0,0.0,0.0,0,3,-3
+Jan Siewert,Huddersfield Town,2018-2019,2018,2019-01-29,2019-05-12,Partial Season / Interim,15,1,2,12,5,0.33,6.7,9,36,-27
+Claude Puel,Leicester City,2018-2019,2018,2018-08-10,2019-02-23,Partial Season (Early Exit),27,9,5,13,32,1.19,33.3,32,38,-6
+Mike Stowell,Leicester City,2018-2019,2018,2019-02-26,2019-02-26,Partial Season (Early Exit),1,1,0,0,3,3.0,100.0,2,1,1
+Brendan Rodgers,Leicester City,2018-2019,2018,2019-03-03,2019-05-12,Partial Season / Interim,10,5,2,3,17,1.7,50.0,17,9,8
+Jürgen Klopp,Liverpool,2018-2019,2018,2018-08-12,2019-05-12,Full Season,38,30,7,1,97,2.55,78.9,89,22,67
+Pep Guardiola,Manchester City,2018-2019,2018,2018-08-12,2019-05-12,Full Season,38,32,2,4,98,2.58,84.2,95,23,72
+José Mourinho,Manchester United,2018-2019,2018,2018-08-10,2018-12-16,Partial Season (Early Exit),17,7,5,5,26,1.53,41.2,29,29,0
+Ole Gunnar Solskjær,Manchester United,2018-2019,2018,2018-12-22,2019-05-12,Partial Season / Interim,21,12,4,5,40,1.9,57.1,36,25,11
+Rafael Benítez,Newcastle United,2018-2019,2018,2018-08-11,2019-05-12,Full Season,38,12,9,17,45,1.18,31.6,42,48,-6
+Mark Hughes,Southampton,2018-2019,2018,2018-08-12,2018-12-01,Partial Season (Early Exit),14,1,6,7,9,0.64,7.1,12,26,-14
+Kelvin Davis,Southampton,2018-2019,2018,2018-12-05,2018-12-05,Partial Season (Early Exit),1,0,0,1,0,0.0,0.0,1,3,-2
+Ralph Hasenhüttl,Southampton,2018-2019,2018,2018-12-08,2019-05-12,Partial Season / Interim,23,8,6,9,30,1.3,34.8,32,36,-4
+Mauricio Pochettino,Tottenham Hotspur,2018-2019,2018,2018-08-11,2019-05-12,Full Season,38,23,2,13,71,1.87,60.5,67,39,28
+Javi Gracia,Watford,2018-2019,2018,2018-08-11,2019-05-12,Full Season,38,14,8,16,50,1.32,36.8,52,59,-7
+Manuel Pellegrini,West Ham United,2018-2019,2018,2018-08-12,2019-05-12,Full Season,38,15,7,16,52,1.37,39.5,52,55,-3
+Nuno Espírito Santo,Wolverhampton Wanderers,2018-2019,2018,2018-08-11,2019-05-12,Full Season,38,16,9,13,57,1.5,42.1,47,46,1
+Eddie Howe,AFC Bournemouth,2017-2018,2017,2017-08-12,2018-05-13,Full Season,38,11,11,16,44,1.16,28.9,45,61,-16
+Arsène Wenger,Arsenal,2017-2018,2017,2017-08-11,2018-05-13,Full Season,38,19,6,13,63,1.66,50.0,74,51,23
+Chris Hughton,Brighton & Hove Albion,2017-2018,2017,2017-08-12,2018-05-13,Full Season,38,9,13,16,40,1.05,23.7,34,54,-20
+Sean Dyche,Burnley,2017-2018,2017,2017-08-12,2018-05-13,Full Season,38,14,12,12,54,1.42,36.8,36,39,-3
+Antonio Conte,Chelsea,2017-2018,2017,2017-08-12,2018-05-13,Full Season,38,21,7,10,70,1.84,55.3,62,38,24
+Frank de Boer,Crystal Palace,2017-2018,2017,2017-08-12,2017-09-10,Partial Season (Early Exit),4,0,0,4,0,0.0,0.0,0,7,-7
+Roy Hodgson,Crystal Palace,2017-2018,2017,2017-09-16,2018-05-13,Partial Season / Interim,34,11,11,12,44,1.29,32.4,45,48,-3
+Ronald Koeman,Everton,2017-2018,2017,2017-08-12,2017-10-22,Partial Season (Early Exit),9,2,2,5,8,0.89,22.2,7,18,-11
+David Unsworth,Everton,2017-2018,2017,2017-10-29,2017-11-29,Partial Season (Early Exit),5,2,1,2,7,1.4,40.0,10,10,0
+Sam Allardyce,Everton,2017-2018,2017,2017-12-02,2018-05-13,Partial Season / Interim,24,9,7,8,34,1.42,37.5,27,30,-3
+David Wagner,Huddersfield Town,2017-2018,2017,2017-08-12,2018-05-13,Full Season,38,9,10,19,37,0.97,23.7,28,58,-30
+Craig Shakespeare,Leicester City,2017-2018,2017,2017-08-11,2017-10-16,Partial Season (Early Exit),8,1,3,4,6,0.75,12.5,10,13,-3
+Michael Appleton,Leicester City,2017-2018,2017,2017-10-21,2017-10-21,Partial Season (Early Exit),1,1,0,0,3,3.0,100.0,2,1,1
+Claude Puel,Leicester City,2017-2018,2017,2017-10-29,2018-05-13,Partial Season / Interim,29,10,8,11,38,1.31,34.5,44,46,-2
+Jürgen Klopp,Liverpool,2017-2018,2017,2017-08-12,2018-05-13,Full Season,38,21,12,5,75,1.97,55.3,84,38,46
+Pep Guardiola,Manchester City,2017-2018,2017,2017-08-12,2018-05-13,Full Season,38,32,4,2,100,2.63,84.2,106,27,79
+José Mourinho,Manchester United,2017-2018,2017,2017-08-13,2018-05-13,Full Season,38,25,6,7,81,2.13,65.8,68,28,40
+Rafael Benítez,Newcastle United,2017-2018,2017,2017-08-13,2018-05-13,Full Season,38,12,8,18,44,1.16,31.6,39,47,-8
+Mauricio Pellegrino,Southampton,2017-2018,2017,2017-08-12,2018-03-10,Partial Season / Interim,30,5,13,12,28,0.93,16.7,29,44,-15
+Mark Hughes,Southampton,2017-2018,2017,2018-03-31,2018-05-13,Partial Season / Interim,8,2,2,4,8,1.0,25.0,8,12,-4
+Mark Hughes,Stoke City,2017-2018,2017,2017-08-12,2018-01-01,Partial Season (Early Exit),22,5,5,12,20,0.91,22.7,23,47,-24
+Eddie Niedzwiecki,Stoke City,2017-2018,2017,2018-01-15,2018-01-15,Partial Season (Early Exit),1,0,0,1,0,0.0,0.0,0,3,-3
+Paul Lambert,Stoke City,2017-2018,2017,2018-01-20,2018-05-13,Partial Season / Interim,15,2,7,6,13,0.87,13.3,12,18,-6
+Paul Clement,Swansea City,2017-2018,2017,2017-08-12,2017-12-18,Partial Season (Early Exit),18,3,3,12,12,0.67,16.7,10,25,-15
+Leon Britton,Swansea City,2017-2018,2017,2017-12-23,2017-12-26,Partial Season (Early Exit),2,0,1,1,1,0.5,0.0,1,6,-5
+Carlos Carvalhal,Swansea City,2017-2018,2017,2017-12-30,2018-05-13,Partial Season / Interim,18,5,5,8,20,1.11,27.8,17,25,-8
+Mauricio Pochettino,Tottenham Hotspur,2017-2018,2017,2017-08-13,2018-05-13,Full Season,38,23,8,7,77,2.03,60.5,74,36,38
+Marco Silva,Watford,2017-2018,2017,2017-08-12,2018-01-20,Partial Season (Early Exit),24,7,5,12,26,1.08,29.2,33,44,-11
+Javi Gracia,Watford,2017-2018,2017,2018-01-31,2018-05-13,Partial Season / Interim,14,4,3,7,15,1.07,28.6,11,20,-9
+Tony Pulis,West Bromwich Albion,2017-2018,2017,2017-08-12,2017-11-18,Partial Season (Early Exit),12,2,4,6,10,0.83,16.7,9,18,-9
+Gary Megson,West Bromwich Albion,2017-2018,2017,2017-11-25,2017-11-28,Partial Season (Early Exit),2,0,2,0,2,1.0,0.0,3,3,0
+Alan Pardew,West Bromwich Albion,2017-2018,2017,2017-12-02,2018-03-31,Partial Season (Early Exit),18,1,5,12,8,0.44,5.6,13,30,-17
+Darren Moore,West Bromwich Albion,2017-2018,2017,2018-04-07,2018-05-13,Partial Season / Interim,6,3,2,1,11,1.83,50.0,6,5,1
+Slaven Bilic,West Ham United,2017-2018,2017,2017-08-13,2017-11-04,Partial Season (Early Exit),11,2,3,6,9,0.82,18.2,11,23,-12
+David Moyes,West Ham United,2017-2018,2017,2017-11-19,2018-05-13,Partial Season / Interim,27,8,9,10,33,1.22,29.6,37,45,-8
+Eddie Howe,AFC Bournemouth,2016-2017,2016,2016-08-14,2017-05-21,Full Season,38,12,10,16,46,1.21,31.6,55,67,-12
+Arsène Wenger,Arsenal,2016-2017,2016,2016-08-14,2017-05-21,Full Season,38,23,6,9,75,1.97,60.5,77,44,33
+Sean Dyche,Burnley,2016-2017,2016,2016-08-13,2017-05-21,Full Season,38,11,7,20,40,1.05,28.9,39,55,-16
+Antonio Conte,Chelsea,2016-2017,2016,2016-08-15,2017-05-21,Full Season,38,30,3,5,93,2.45,78.9,85,33,52
+Alan Pardew,Crystal Palace,2016-2017,2016,2016-08-13,2016-12-17,Partial Season (Early Exit),17,4,3,10,15,0.88,23.5,28,32,-4
+Sam Allardyce,Crystal Palace,2016-2017,2016,2016-12-26,2017-05-21,Partial Season / Interim,21,8,2,11,26,1.24,38.1,22,31,-9
+Ronald Koeman,Everton,2016-2017,2016,2016-08-13,2017-05-21,Full Season,38,17,10,11,61,1.61,44.7,62,44,18
+Mike Phelan,Hull City,2016-2017,2016,2016-08-13,2017-01-02,Partial Season (Early Exit),20,3,4,13,13,0.65,15.0,17,44,-27
+Marco Silva,Hull City,2016-2017,2016,2017-01-14,2017-05-21,Partial Season / Interim,18,6,3,9,21,1.17,33.3,20,36,-16
+Claudio Ranieri,Leicester City,2016-2017,2016,2016-08-13,2017-02-12,Partial Season (Early Exit),25,5,6,14,21,0.84,20.0,24,43,-19
+Craig Shakespeare,Leicester City,2016-2017,2016,2017-02-27,2017-05-21,Partial Season / Interim,13,7,2,4,23,1.77,53.8,24,20,4
+Jürgen Klopp,Liverpool,2016-2017,2016,2016-08-14,2017-05-21,Full Season,38,22,10,6,76,2.0,57.9,78,42,36
+Pep Guardiola,Manchester City,2016-2017,2016,2016-08-13,2017-05-21,Full Season,38,23,9,6,78,2.05,60.5,80,39,41
+José Mourinho,Manchester United,2016-2017,2016,2016-08-14,2017-05-21,Full Season,38,18,15,5,69,1.82,47.4,54,29,25
+Aitor Karanka,Middlesbrough,2016-2017,2016,2016-08-13,2017-03-04,Partial Season (Early Exit),27,4,10,13,22,0.81,14.8,19,30,-11
+Steve Agnew,Middlesbrough,2016-2017,2016,2017-03-19,2017-05-21,Partial Season / Interim,11,1,3,7,6,0.55,9.1,8,23,-15
+Claude Puel,Southampton,2016-2017,2016,2016-08-13,2017-05-21,Full Season,38,12,10,16,46,1.21,31.6,41,48,-7
+Mark Hughes,Stoke City,2016-2017,2016,2016-08-13,2017-05-21,Full Season,38,11,11,16,44,1.16,28.9,41,56,-15
+David Moyes,Sunderland,2016-2017,2016,2016-08-13,2017-05-21,Full Season,38,6,6,26,24,0.63,15.8,29,69,-40
+Francesco Guidolin,Swansea City,2016-2017,2016,2016-08-13,2016-10-01,Partial Season (Early Exit),7,1,1,5,4,0.57,14.3,6,12,-6
+Bob Bradley,Swansea City,2016-2017,2016,2016-10-15,2016-12-26,Partial Season (Early Exit),11,2,2,7,8,0.73,18.2,15,29,-14
+Alan Curtis,Swansea City,2016-2017,2016,2016-12-31,2017-01-03,Partial Season (Early Exit),2,1,0,1,3,1.5,50.0,2,4,-2
+Paul Clement,Swansea City,2016-2017,2016,2017-01-14,2017-05-21,Partial Season / Interim,18,8,2,8,26,1.44,44.4,22,25,-3
+Mauricio Pochettino,Tottenham Hotspur,2016-2017,2016,2016-08-13,2017-05-21,Full Season,38,26,8,4,86,2.26,68.4,86,26,60
+Walter Mazzarri,Watford,2016-2017,2016,2016-08-13,2017-05-21,Full Season,38,11,7,20,40,1.05,28.9,40,68,-28
+Tony Pulis,West Bromwich Albion,2016-2017,2016,2016-08-13,2017-05-21,Full Season,38,12,9,17,45,1.18,31.6,43,51,-8
+Slaven Bilic,West Ham United,2016-2017,2016,2016-08-15,2017-05-21,Full Season,38,12,9,17,45,1.18,31.6,47,64,-17
+Eddie Howe,AFC Bournemouth,2015-2016,2015,2015-08-08,2016-05-17,Full Season,38,11,9,18,42,1.11,28.9,45,67,-22
+Arsène Wenger,Arsenal,2015-2016,2015,2015-08-09,2016-05-15,Full Season,38,20,11,7,71,1.87,52.6,65,36,29
+Tim Sherwood,Aston Villa,2015-2016,2015,2015-08-08,2015-10-24,Partial Season (Early Exit),10,1,1,8,4,0.4,10.0,9,17,-8
+Kevin MacDonald,Aston Villa,2015-2016,2015,2015-11-02,2015-11-02,Partial Season (Early Exit),1,0,0,1,0,0.0,0.0,1,3,-2
+Rémi Garde,Aston Villa,2015-2016,2015,2015-11-08,2016-03-19,Partial Season (Early Exit),20,2,6,12,12,0.6,10.0,12,38,-26
+Eric Black,Aston Villa,2015-2016,2015,2016-04-02,2016-05-15,Partial Season / Interim,7,0,1,6,1,0.14,0.0,5,18,-13
+José Mourinho,Chelsea,2015-2016,2015,2015-08-08,2015-12-14,Partial Season (Early Exit),16,4,3,9,15,0.94,25.0,18,26,-8
+Steve Holland,Chelsea,2015-2016,2015,2015-12-19,2015-12-19,Partial Season (Early Exit),1,1,0,0,3,3.0,100.0,3,1,2
+Guus Hiddink,Chelsea,2015-2016,2015,2015-12-26,2016-05-15,Partial Season / Interim,21,7,11,3,32,1.52,33.3,38,26,12
+Alan Pardew,Crystal Palace,2015-2016,2015,2015-08-08,2016-05-15,Full Season,38,11,9,18,42,1.11,28.9,39,51,-12
+Roberto Martínez,Everton,2015-2016,2015,2015-08-08,2016-05-11,Partial Season / Interim,37,10,14,13,44,1.19,27.0,56,55,1
+David Unsworth,Everton,2015-2016,2015,2016-05-15,2016-05-15,Partial Season / Interim,1,1,0,0,3,3.0,100.0,3,0,3
+Claudio Ranieri,Leicester City,2015-2016,2015,2015-08-08,2016-05-15,Full Season,38,23,12,3,81,2.13,60.5,68,36,32
+Brendan Rodgers,Liverpool,2015-2016,2015,2015-08-09,2015-10-04,Partial Season (Early Exit),8,3,3,2,12,1.5,37.5,8,10,-2
+Jürgen Klopp,Liverpool,2015-2016,2015,2015-10-17,2016-05-15,Partial Season / Interim,30,13,9,8,48,1.6,43.3,55,40,15
+Manuel Pellegrini,Manchester City,2015-2016,2015,2015-08-10,2016-05-15,Full Season,38,19,9,10,66,1.74,50.0,71,41,30
+Louis van Gaal,Manchester United,2015-2016,2015,2015-08-08,2016-05-17,Full Season,38,19,9,10,66,1.74,50.0,49,35,14
+Steve McClaren,Newcastle United,2015-2016,2015,2015-08-09,2016-03-05,Partial Season (Early Exit),28,6,6,16,24,0.86,21.4,28,53,-25
+Rafael Benítez,Newcastle United,2015-2016,2015,2016-03-14,2016-05-15,Partial Season / Interim,10,3,4,3,13,1.3,30.0,16,12,4
+Alex Neil,Norwich City,2015-2016,2015,2015-08-08,2016-05-15,Full Season,38,9,7,22,34,0.89,23.7,39,67,-28
+Ronald Koeman,Southampton,2015-2016,2015,2015-08-09,2016-05-15,Full Season,38,18,9,11,63,1.66,47.4,59,41,18
+Mark Hughes,Stoke City,2015-2016,2015,2015-08-09,2016-05-15,Full Season,38,14,9,15,51,1.34,36.8,41,55,-14
+Dick Advocaat,Sunderland,2015-2016,2015,2015-08-08,2015-10-03,Partial Season (Early Exit),8,0,3,5,3,0.38,0.0,8,18,-10
+Sam Allardyce,Sunderland,2015-2016,2015,2015-10-17,2016-05-15,Partial Season / Interim,30,9,9,12,36,1.2,30.0,40,44,-4
+Garry Monk,Swansea City,2015-2016,2015,2015-08-08,2015-12-05,Partial Season (Early Exit),15,3,5,7,14,0.93,20.0,14,22,-8
+Alan Curtis,Swansea City,2015-2016,2015,2015-12-12,2016-03-12,Partial Season (Early Exit),10,4,2,4,14,1.4,40.0,11,12,-1
+Francesco Guidolin,Swansea City,2015-2016,2015,2016-01-24,2016-05-15,Partial Season / Interim,13,5,4,4,19,1.46,38.5,17,18,-1
+Mauricio Pochettino,Tottenham Hotspur,2015-2016,2015,2015-08-08,2016-05-15,Full Season,38,19,13,6,70,1.84,50.0,69,35,34
+Quique Sánchez Flores,Watford,2015-2016,2015,2015-08-08,2016-05-15,Full Season,38,12,9,17,45,1.18,31.6,40,50,-10
+Tony Pulis,West Bromwich Albion,2015-2016,2015,2015-08-10,2016-05-15,Full Season,38,10,13,15,43,1.13,26.3,34,48,-14
+Slaven Bilic,West Ham United,2015-2016,2015,2015-08-09,2016-05-15,Full Season,38,16,14,8,62,1.63,42.1,65,51,14
+Arsène Wenger,Arsenal,2014-2015,2014,2014-08-16,2015-05-24,Full Season,38,22,9,7,75,1.97,57.9,71,36,35
+Paul Lambert,Aston Villa,2014-2015,2014,2014-08-16,2015-02-10,Partial Season (Early Exit),25,5,7,13,22,0.88,20.0,12,34,-22
+Tim Sherwood,Aston Villa,2014-2015,2014,2015-02-21,2015-05-24,Partial Season / Interim,13,5,1,7,16,1.23,38.5,19,23,-4
+Sean Dyche,Burnley,2014-2015,2014,2014-08-18,2015-05-24,Full Season,38,7,12,19,33,0.87,18.4,28,53,-25
+José Mourinho,Chelsea,2014-2015,2014,2014-08-18,2015-05-24,Full Season,38,26,9,3,87,2.29,68.4,73,32,41
+Keith Millen,Crystal Palace,2014-2015,2014,2014-08-16,2015-01-01,Partial Season (Early Exit),4,0,2,2,2,0.5,0.0,2,5,-3
+Neil Warnock,Crystal Palace,2014-2015,2014,2014-08-30,2014-12-26,Partial Season (Early Exit),16,3,6,7,15,0.94,18.8,18,25,-7
+Alan Pardew,Crystal Palace,2014-2015,2014,2015-01-10,2015-05-24,Partial Season / Interim,18,10,1,7,31,1.72,55.6,27,21,6
+Roberto Martínez,Everton,2014-2015,2014,2014-08-16,2015-05-24,Full Season,38,12,11,15,47,1.24,31.6,48,50,-2
+Steve Bruce,Hull City,2014-2015,2014,2014-08-16,2015-05-24,Full Season,38,8,11,19,35,0.92,21.1,33,51,-18
+Nigel Pearson,Leicester City,2014-2015,2014,2014-08-16,2015-05-24,Full Season,38,11,8,19,41,1.08,28.9,46,55,-9
+Brendan Rodgers,Liverpool,2014-2015,2014,2014-08-17,2015-05-24,Full Season,38,18,8,12,62,1.63,47.4,52,48,4
+Manuel Pellegrini,Manchester City,2014-2015,2014,2014-08-17,2015-05-24,Full Season,38,24,7,7,79,2.08,63.2,83,38,45
+Louis van Gaal,Manchester United,2014-2015,2014,2014-08-16,2015-05-24,Full Season,38,20,10,8,70,1.84,52.6,62,37,25
+Alan Pardew,Newcastle United,2014-2015,2014,2014-08-17,2014-12-28,Partial Season (Early Exit),19,7,5,7,26,1.37,36.8,22,28,-6
+John Carver,Newcastle United,2014-2015,2014,2015-01-01,2015-05-24,Partial Season / Interim,19,3,4,12,13,0.68,15.8,18,35,-17
+Harry Redknapp,Queens Park Rangers,2014-2015,2014,2014-08-16,2015-01-31,Partial Season (Early Exit),23,5,4,14,19,0.83,21.7,24,42,-18
+Chris Ramsey,Queens Park Rangers,2014-2015,2014,2015-02-07,2015-05-24,Partial Season / Interim,15,3,2,10,11,0.73,20.0,18,31,-13
+Ronald Koeman,Southampton,2014-2015,2014,2014-08-17,2015-05-24,Full Season,38,18,6,14,60,1.58,47.4,54,33,21
+Mark Hughes,Stoke City,2014-2015,2014,2014-08-16,2015-05-24,Full Season,38,15,9,14,54,1.42,39.5,48,45,3
+Gustavo Poyet,Sunderland,2014-2015,2014,2014-08-16,2015-03-14,Partial Season (Early Exit),29,4,14,11,26,0.9,13.8,23,43,-20
+Dick Advocaat,Sunderland,2014-2015,2014,2015-03-21,2015-05-24,Partial Season / Interim,9,3,3,3,12,1.33,33.3,8,10,-2
+Garry Monk,Swansea City,2014-2015,2014,2014-08-16,2015-05-24,Full Season,38,16,8,14,56,1.47,42.1,46,49,-3
+Mauricio Pochettino,Tottenham Hotspur,2014-2015,2014,2014-08-16,2015-05-24,Full Season,38,19,7,12,64,1.68,50.0,58,53,5
+Alan Irvine,West Bromwich Albion,2014-2015,2014,2014-08-16,2014-12-28,Partial Season (Early Exit),19,4,5,10,17,0.89,21.1,18,28,-10
+Rob Kelly,West Bromwich Albion,2014-2015,2014,2015-01-01,2015-01-01,Partial Season (Early Exit),1,0,1,0,1,1.0,0.0,1,1,0
+Tony Pulis,West Bromwich Albion,2014-2015,2014,2015-01-10,2015-05-24,Partial Season / Interim,18,7,5,6,26,1.44,38.9,19,22,-3
+Sam Allardyce,West Ham United,2014-2015,2014,2014-08-16,2015-05-24,Full Season,38,12,11,15,47,1.24,31.6,44,47,-3
+Arsène Wenger,Arsenal,2013-2014,2013,2013-08-17,2014-05-11,Full Season,38,24,7,7,79,2.08,63.2,68,41,27
+Paul Lambert,Aston Villa,2013-2014,2013,2013-08-17,2014-05-11,Full Season,38,10,8,20,38,1.0,26.3,39,61,-22
+Malky Mackay,Cardiff City,2013-2014,2013,2013-08-17,2013-12-26,Partial Season (Early Exit),18,4,5,9,17,0.94,22.2,13,28,-15
+David Kerslake,Cardiff City,2013-2014,2013,2013-12-28,2014-01-01,Partial Season (Early Exit),2,0,1,1,1,0.5,0.0,2,4,-2
+Ole Gunnar Solskjaer,Cardiff City,2013-2014,2013,2014-01-11,2014-05-11,Partial Season / Interim,18,3,3,12,12,0.67,16.7,17,42,-25
+José Mourinho,Chelsea,2013-2014,2013,2013-08-18,2014-05-11,Full Season,38,25,7,6,82,2.16,65.8,71,27,44
+Ian Holloway,Crystal Palace,2013-2014,2013,2013-08-18,2013-10-21,Partial Season (Early Exit),8,1,0,7,3,0.38,12.5,6,17,-11
+Keith Millen,Crystal Palace,2013-2014,2013,2013-10-26,2013-11-23,Partial Season (Early Exit),4,1,1,2,4,1.0,25.0,1,4,-3
+Tony Pulis,Crystal Palace,2013-2014,2013,2013-11-30,2014-05-11,Partial Season / Interim,26,11,5,10,38,1.46,42.3,26,27,-1
+Roberto Martínez,Everton,2013-2014,2013,2013-08-17,2014-05-11,Full Season,38,21,9,8,72,1.89,55.3,61,39,22
+Martin Jol,Fulham,2013-2014,2013,2013-08-17,2013-11-30,Partial Season (Early Exit),13,3,1,9,10,0.77,23.1,11,24,-13
+René Meulensteen,Fulham,2013-2014,2013,2013-12-04,2014-02-12,Partial Season (Early Exit),13,3,1,9,10,0.77,23.1,15,34,-19
+Felix Magath,Fulham,2013-2014,2013,2014-02-22,2014-05-11,Partial Season / Interim,12,3,3,6,12,1.0,25.0,14,27,-13
+Steve Bruce,Hull City,2013-2014,2013,2013-08-18,2014-05-11,Full Season,38,10,7,21,37,0.97,26.3,38,53,-15
+Brendan Rodgers,Liverpool,2013-2014,2013,2013-08-17,2014-05-11,Full Season,38,26,6,6,84,2.21,68.4,101,50,51
+Manuel Pellegrini,Manchester City,2013-2014,2013,2013-08-19,2014-05-11,Full Season,38,27,5,6,86,2.26,71.1,102,37,65
+David Moyes,Manchester United,2013-2014,2013,2013-08-17,2014-04-20,Partial Season / Interim,34,17,6,11,57,1.68,50.0,56,40,16
+Ryan Giggs,Manchester United,2013-2014,2013,2014-04-26,2014-05-11,Partial Season / Interim,4,2,1,1,7,1.75,50.0,8,3,5
+Alan Pardew,Newcastle United,2013-2014,2013,2013-08-19,2014-05-11,Partial Season / Interim,37,15,4,18,49,1.32,40.5,43,58,-15
+John Carver,Newcastle United,2013-2014,2013,2014-03-15,2014-03-15,Partial Season (Early Exit),1,0,0,1,0,0.0,0.0,0,1,-1
+Chris Hughton,Norwich City,2013-2014,2013,2013-08-17,2014-04-05,Partial Season / Interim,33,8,8,17,32,0.97,24.2,26,52,-26
+Neil Adams,Norwich City,2013-2014,2013,2014-04-12,2014-05-11,Partial Season / Interim,5,0,1,4,1,0.2,0.0,2,10,-8
+Mauricio Pochettino,Southampton,2013-2014,2013,2013-08-17,2014-05-11,Full Season,38,15,11,12,56,1.47,39.5,54,46,8
+Mark Hughes,Stoke City,2013-2014,2013,2013-08-17,2014-05-11,Full Season,38,13,11,14,50,1.32,34.2,45,52,-7
+Paolo Di Canio,Sunderland,2013-2014,2013,2013-08-17,2013-09-21,Partial Season (Early Exit),5,0,1,4,1,0.2,0.0,3,11,-8
+Kevin Ball,Sunderland,2013-2014,2013,2013-09-29,2013-10-05,Partial Season (Early Exit),2,0,0,2,0,0.0,0.0,2,5,-3
+Gustavo Poyet,Sunderland,2013-2014,2013,2013-10-19,2014-05-11,Partial Season / Interim,31,10,7,14,37,1.19,32.3,36,44,-8
+Michael Laudrup,Swansea City,2013-2014,2013,2013-08-17,2014-02-01,Partial Season (Early Exit),24,6,6,12,24,1.0,25.0,29,35,-6
+Garry Monk,Swansea City,2013-2014,2013,2014-02-08,2014-05-11,Partial Season / Interim,14,5,3,6,18,1.29,35.7,25,19,6
+André Villas-Boas,Tottenham Hotspur,2013-2014,2013,2013-08-18,2013-12-15,Partial Season (Early Exit),16,8,3,5,27,1.69,50.0,15,21,-6
+Tim Sherwood,Tottenham Hotspur,2013-2014,2013,2013-12-22,2014-05-11,Partial Season / Interim,22,13,3,6,42,1.91,59.1,40,30,10
+Steve Clarke,West Bromwich Albion,2013-2014,2013,2013-08-17,2013-12-14,Partial Season (Early Exit),16,3,6,7,15,0.94,18.8,17,22,-5
+Keith Downing,West Bromwich Albion,2013-2014,2013,2013-12-21,2014-01-11,Partial Season (Early Exit),5,1,3,1,6,1.2,20.0,6,6,0
+Pepe Mel,West Bromwich Albion,2013-2014,2013,2014-01-20,2014-05-11,Partial Season / Interim,17,3,6,8,15,0.88,17.6,20,31,-11
+Sam Allardyce,West Ham United,2013-2014,2013,2013-08-17,2014-05-11,Full Season,38,11,7,20,40,1.05,28.9,40,51,-11
+Arsène Wenger,Arsenal,2012-2013,2012,2012-08-18,2013-05-19,Full Season,38,21,10,7,73,1.92,55.3,72,37,35
+Paul Lambert,Aston Villa,2012-2013,2012,2012-08-18,2013-05-19,Full Season,38,10,11,17,41,1.08,26.3,47,69,-22
+Roberto Di Matteo,Chelsea,2012-2013,2012,2012-08-19,2012-11-17,Partial Season (Early Exit),12,7,3,2,24,2.0,58.3,24,13,11
+Rafael Benítez,Chelsea,2012-2013,2012,2012-11-25,2013-05-19,Partial Season / Interim,26,15,6,5,51,1.96,57.7,51,26,25
+David Moyes,Everton,2012-2013,2012,2012-08-20,2013-05-19,Full Season,38,16,15,7,63,1.66,42.1,55,40,15
+Martin Jol,Fulham,2012-2013,2012,2012-08-18,2013-05-19,Full Season,38,11,10,17,43,1.13,28.9,50,60,-10
+Brendan Rodgers,Liverpool,2012-2013,2012,2012-08-18,2013-05-19,Full Season,38,16,13,9,61,1.61,42.1,71,43,28
+Roberto Mancini,Manchester City,2012-2013,2012,2012-08-19,2013-05-07,Partial Season / Interim,36,22,9,5,75,2.08,61.1,62,31,31
+Brian Kidd,Manchester City,2012-2013,2012,2013-05-14,2013-05-19,Partial Season / Interim,2,1,0,1,3,1.5,50.0,4,3,1
+Sir Alex Ferguson,Manchester United,2012-2013,2012,2012-08-20,2013-05-19,Full Season,38,28,5,5,89,2.34,73.7,86,43,43
+Alan Pardew,Newcastle United,2012-2013,2012,2012-08-18,2013-05-19,Full Season,38,11,8,19,41,1.08,28.9,45,68,-23
+Chris Hughton,Norwich City,2012-2013,2012,2012-08-18,2013-05-19,Full Season,38,10,14,14,44,1.16,26.3,41,58,-17
+Mark Hughes,Queens Park Rangers,2012-2013,2012,2012-08-18,2012-11-17,Partial Season (Early Exit),12,0,4,8,4,0.33,0.0,9,23,-14
+Mark Bowen,Queens Park Rangers,2012-2013,2012,2012-11-24,2012-11-24,Partial Season (Early Exit),1,0,0,1,0,0.0,0.0,1,3,-2
+Harry Redknapp,Queens Park Rangers,2012-2013,2012,2012-11-27,2013-05-19,Partial Season / Interim,25,4,9,12,21,0.84,16.0,20,34,-14
+Brian McDermott,Reading,2012-2013,2012,2012-08-18,2013-03-09,Partial Season (Early Exit),29,5,8,16,23,0.79,17.2,35,56,-21
+Eamonn Dolan †,Reading,2012-2013,2012,2013-03-16,2013-03-16,Partial Season (Early Exit),1,0,0,1,0,0.0,0.0,0,1,-1
+Nigel Adkins,Reading,2012-2013,2012,2013-03-30,2013-05-19,Partial Season / Interim,8,1,2,5,5,0.62,12.5,8,16,-8
+Nigel Adkins,Southampton,2012-2013,2012,2012-08-19,2013-01-16,Partial Season (Early Exit),22,5,7,10,22,1.0,22.7,30,40,-10
+Mauricio Pochettino,Southampton,2012-2013,2012,2013-01-21,2013-05-19,Partial Season / Interim,16,4,7,5,19,1.19,25.0,19,20,-1
+Tony Pulis,Stoke City,2012-2013,2012,2012-08-18,2013-05-19,Full Season,38,9,15,14,42,1.11,23.7,34,45,-11
+Martin O'Neill,Sunderland,2012-2013,2012,2012-08-18,2013-03-30,Partial Season / Interim,31,7,10,14,31,1.0,22.6,33,43,-10
+Paolo Di Canio,Sunderland,2012-2013,2012,2013-04-07,2013-05-19,Partial Season / Interim,7,2,2,3,8,1.14,28.6,8,11,-3
+Michael Laudrup,Swansea City,2012-2013,2012,2012-08-18,2013-05-19,Full Season,38,11,13,14,46,1.21,28.9,47,51,-4
+André Villas-Boas,Tottenham Hotspur,2012-2013,2012,2012-08-18,2013-05-19,Full Season,38,21,9,8,72,1.89,55.3,66,46,20
+Steve Clarke,West Bromwich Albion,2012-2013,2012,2012-08-18,2013-05-19,Full Season,38,14,7,17,49,1.29,36.8,53,57,-4
+Sam Allardyce,West Ham United,2012-2013,2012,2012-08-18,2013-05-19,Full Season,38,12,10,16,46,1.21,31.6,45,53,-8
+Roberto Martínez,Wigan Athletic,2012-2013,2012,2012-08-19,2013-05-19,Full Season,38,9,9,20,36,0.95,23.7,47,73,-26
